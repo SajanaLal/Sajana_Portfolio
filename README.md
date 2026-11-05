@@ -4,7 +4,7 @@
 <!--Section 1: Introduction-->
 ## 🌟 About Me  
 I turn raw data into clean, reliable datasets and dashboards people can actually use. I work with **SQL Server**, **Python** and **Power BI**, and I enjoy building the whole flow from API to warehouse to dashboard.
-My background is 5 years in SAP MM, handling procurement and inventory. That’s where I learned how business data behaves in real life, and why I care so much about data quality.
+My background is 5 years in SAP MM, handling procurement and inventory. That’s where I learned how business data behaves in real life, and why I care so much about data quality. 
 ---
 ## 📊 Projects  
 
@@ -46,18 +46,15 @@ My background is 5 years in SAP MM, handling procurement and inventory. That’s
 ![SQL](https://img.shields.io/badge/-SQL%20Server-CC2927?logo=MicrosoftSQLServer&logoColor=white) 
 ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?logo=Power-BI&logoColor=black) 
 ![Excel](https://img.shields.io/badge/-Excel%20%7C%20VBA-217346?logo=Microsoft-Excel&logoColor=white) 
-
 **Data:** ETL/ELT, data warehousing, REST APIs, data cleaning and validation 
 **Analytics:** DAX, Power Query, KPI reporting, interactive dashboards
 ---
-
 ## 💼 Work Experience
 
-Data Analyst, Rows & Columns (Jun 2026 to present)
-Senior Consultant, SAP MM, Wipro (Dec 2024 to Jun 2026)
-Associate Consultant, SAP MM, Wipro (Sep 2020 to Nov 2024)
+- **Data Analyst, Rows & Columns** (Jun 2026 to present)
+- **Senior MM Consultant, Wipro** (Dec 2024 to Jun 2026)
+- **Associate MM Consultant, Wipro** (Sep 2020 to Nov 2024)
 ---
-
 ## 🎓 Education 
 
 - **MTech Software Systems**  
@@ -65,12 +62,10 @@ Associate Consultant, SAP MM, Wipro (Sep 2020 to Nov 2024)
 - **BSc Physics**
   *University of Calicut*
   ---
-  
   ## 📜 Certifications
 
-  **Databricks Certified Data Engineer Associate** (2025)
+ **Databricks Certified Data Engineer Associate** (2025)
 --- 
-
 ## 📫 Contact Details  
 *Let’s connect and see how we can make a difference together!*  
 
