@@ -14,24 +14,28 @@ My background is 5 years in SAP MM, handling procurement and inventory. That’s
 - API-Football → Python (Requests, Pandas) → SQL Server staging → star-schema warehouse → Power BI
 - 420 records loaded (20 teams, 380 fixtures, standings) with upserts and automated validation
 - Warehouse audits: zero duplicate fixtures, zero missing references
-- **Tools:** Python, SQL Server, Power BI 
+- **Tools:** Python, SQL Server, Power BI
+
 ---
 ### 🏗️ Layered Data Warehouse (Bronze → Silver → Gold)
 - Integrated 6 CRM and ERP source files (~116K rows)
 - Automated loads with stored procedures, **BULK INSERT**, logging and **TRY/CATCH**
 - Gold-layer star schema with data quality checks (key uniqueness, referential integrity)
 - **Tools:** SQL Server
+  
 ---
 ### 🏋️ Gym Data ETL (Kerala)
 - Paginated API pipeline across 8 cities: 57 requests, 1,092 raw records
 - Deduplicated to 891 clean listings and profiled data quality (e.g. 65% had no website)
 - City-level analysis of supply and engagement in Matplotlib
 - **Tools:** Python, Pandas, Matplotlib
+  
 ---
 ### 📊 Project Monitoring Dashboard
 - Power BI report on 9 tables with 20+ DAX measures
 - Tracks progress, spend, billing and risk, with drill-downs, bookmarks and field parameters
 - **Tools:** Power BI, DAX
+  
 ---
 ### 📦 Inventory & Procurement Management System
 - Excel workbook that runs the full cycle from product, supplier and order entry to reorder decisions.
@@ -39,6 +43,7 @@ My background is 5 years in SAP MM, handling procurement and inventory. That’s
 - Auto-calculates stock, inventory value and reorder alerts (24 flagged at the latest snapshot)
 - Two dashboards with PivotTables, charts and slicers, plus VBA macros for reporting
 - Tools: Excel, VBA, PivotTables
+  
 ---
 
 ## Skills
