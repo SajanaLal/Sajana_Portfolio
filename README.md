@@ -41,7 +41,6 @@ My background is 5 years in SAP MM, handling procurement and inventory. That’s
 - Tools: Excel, VBA, PivotTables
   
 ---
-
 ## Skills
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=Python&logoColor=white) 
@@ -54,10 +53,24 @@ My background is 5 years in SAP MM, handling procurement and inventory. That’s
 ---
 ## 💼 Work Experience
 
-- **Data Analyst, Rows & Columns** (Jun 2026 to present)
-- **Senior MM Consultant, Wipro** (Dec 2024 to Jun 2026)
-- **Associate MM Consultant, Wipro** (Sep 2020 to Nov 2024)
-
+### **Data Analyst, Rows & Columns** (Jun 2026 to present)
+- Prepared and analysed 5,000+ rows with SQL and Python
+- Built SQL views and dimension tables for Power BI reporting
+- Created multi-page Power BI dashboards with DAX, relationships and drill-downs
+- Ran duplicate and validation checks to keep datasets accurate
+  
+### **Senior MM Consultant, Wipro** (Dec 2024 to Jun 2026)
+- Built reports on procurement cycle time, vendor performance and inventory turnover
+- Coordinated data flow between MM and the SD, FI and PP modules, reducing process gaps by 30%
+- Improved master-data accuracy by 35% through bulk updates with MASS and LSMW
+- Resolved 1,000+ support tickets with 98% SLA compliance
+  
+### **Associate MM Consultant, Wipro** (Sep 2020 to Nov 2024)
+- Improved data retrieval and reporting accuracy by 40% with technical teams
+- Resolved incidents within 90% SLA, supporting procurement and inventory across business units
+- Configured purchasing documents, release strategies and pricing procedures
+- Supported functional testing, UAT and 200+ transports
+  
 ---
 ## 🎓 Education
 - Mtech in Software Systems, Bits Pilani (2024)
