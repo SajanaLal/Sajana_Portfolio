@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sajanalal H — Data Analyst</title>
+<meta name="description" content="Sajanalal H — Data Analyst. SQL, Power BI, Advanced Excel and Python, backed by 5+ years of SAP MM at Wipro.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top">Sajanalal H</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="hero-kicker">Data Analyst</p>
+      <h1>Sajanalal H</h1>
+      <p class="hero-sub">I build ETL pipelines, data warehouses and dashboards with SQL, Power BI, Advanced Excel and Python. Five years of SAP MM at Wipro taught me how business data actually behaves, and that depth is what makes the analytics useful.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <a class="btn btn-ghost" href="Sajanalal_Data_Analyst.pdf">Download CV</a>
+      </div>
+      <div class="hero-meta">
+        <span>Kochi, Kerala, India</span>
+        <a href="mailto:sajanalal99@gmail.com">sajanalal99@gmail.com</a>
+        <a href="https://www.linkedin.com/in/sajanalal">LinkedIn</a>
+        <a href="https://github.com/SajanaLal">GitHub</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="Sajna.JPG" alt="Sajanalal H">
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2>About</h2>
+    <p class="section-lead">Data is where I've always wanted to work: taking raw, messy inputs and turning them into validated datasets and dashboards people can trust. My five years as an SAP MM consultant at Wipro are the foundation. Supporting procurement, inventory and logistics processes taught me how business data actually behaves: where it breaks, how it gets reconciled, and which numbers planners trust. Now I'm building the full analytics flow, from source data to decision-ready reporting.</p>
+    <div class="about-cards">
+      <div class="about-card">
+        <h3>Analytics toolkit</h3>
+        <p>SQL Server, Power BI (DAX, Power Query), Advanced Excel with VBA automation, and Python (Pandas, REST APIs) for extraction, cleaning and modelling.</p>
+      </div>
+      <div class="about-card">
+        <h3>Domain depth</h3>
+        <p>Hands-on with purchasing, goods receipt, invoice verification and 3-way match reconciliation in SAP MM, plus MASS/LSMW master-data changes and IDoc/XML integrations.</p>
+      </div>
+      <div class="about-card">
+        <h3>Reporting mindset</h3>
+        <p>Recurring KPI reporting on procurement cycle time, vendor performance and inventory turnover, with numbers validated before they reach a planning review.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Data &amp; analytics</h3>
+        <ul>
+          <li>SQL Server: joins, CTEs, window functions, views, stored procedures</li>
+          <li>Python: Pandas, NumPy, REST APIs</li>
+          <li>ETL/ELT, data warehousing, dimensional modelling</li>
+          <li>Data cleaning, validation and root-cause analysis</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>BI &amp; reporting</h3>
+        <ul>
+          <li>Power BI: Power Query, DAX, data modelling, KPI dashboards</li>
+          <li>Advanced Excel: VBA, PivotTables, INDEX/MATCH, SUMIFS, Power Query</li>
+          <li>Tableau</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Domain knowledge</h3>
+        <ul>
+          <li>SAP MM: purchasing, inventory management, invoice verification</li>
+          <li>Procurement, vendor and inventory KPIs; MASS/LSMW, IDoc/XML</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+    <p class="section-lead">Each project is end to end: raw source data in, validated dataset or dashboard out.</p>
+
+    <article class="project">
+      <div class="project-body">
+        <h3>EPL ETL Pipeline &amp; Analytics</h3>
+        <p class="project-tags">Python · SQL Server · Power BI</p>
+        <p>Raw Premier League data turned into a reliable warehouse and dashboard. Python pulls team, fixture and standings records from API-Football into a SQL Server staging layer and dimensional warehouse; SQL views feed a Power BI report on team performance and match outcomes.</p>
+        <ul class="project-points">
+          <li>420 records loaded: 20 teams, 380 fixtures and standings, with upserts and automated validation</li>
+          <li>Warehouse audits: zero duplicate fixtures, zero missing team references, no invalid standings</li>
+          <li>Star-schema dimensional model with SQL views for reporting</li>
+        </ul>
+        <a class="project-link" href="https://github.com/SajanaLal/EPL_ETL-Pipeline-Analytics">View repository →</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-body">
+        <h3>Project Monitoring Dashboard</h3>
+        <p class="project-tags">Power BI · DAX · Power Query</p>
+        <p>A management-review dashboard tracking 1,800+ infrastructure projects across financials, physical vs financial progress, risks and milestone pendency. Built on 9 integrated tables with 20+ DAX measures, it compares awarded amounts against expenditure to surface delivery-expenditure gaps, and derives milestone lifecycle status (DPR, AS, TS, NIT, Awarded, Started, Completed) from date fields.</p>
+        <ul class="project-points">
+          <li>20+ DAX measures across progress, expenditure, billing, approvals and risk</li>
+          <li>Tooltip pages, drill-through, field parameters and a hidden slicer panel</li>
+          <li>Milestone lifecycle logic and pendency analysis for planning reviews</li>
+        </ul>
+        <a class="project-link" href="https://github.com/SajanaLal/power-bi-project-monitoring-dashboard">View repository →</a>
+      </div>
+      <div class="project-media">
+        <img src="assets/pbi-dashboard-wireframe.png" alt="Project Monitoring Dashboard layout" loading="lazy">
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-body">
+        <h3>Inventory &amp; Order Tracking Automation</h3>
+        <p class="project-tags">Excel · VBA · PivotTables</p>
+        <p>A macro-enabled workbook that runs inventory and order tracking for 50 products, 10 suppliers and 250 order records. VBA data-entry forms validate input and generate sequential IDs; INDEX/MATCH and SUMIFS formulas calculate delivered quantities, remaining stock, inventory value, low-stock alerts and replenishment quantities against reorder thresholds; PivotTable dashboards with slicers cover stock availability, reorder alerts, supplier lead times and delivered vs pending orders.</p>
+        <ul class="project-points">
+          <li>VBA forms for product, supplier and order entry with required-field and numeric validation</li>
+          <li>Automated reorder and replenishment logic against per-product thresholds</li>
+          <li>Two interactive dashboards built on PivotTables, charts and slicers</li>
+        </ul>
+        <a class="project-link" href="https://github.com/SajanaLal/excel-inventory-order-tracking">View repository →</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-body">
+        <h3>Layered Data Warehouse (Bronze → Silver → Gold)</h3>
+        <p class="project-tags">SQL Server · ETL · Data Modelling</p>
+        <p>A medallion-architecture warehouse integrating 6 CRM and ERP source files, about 116K records, into analysis-ready datasets. Ingestion is automated with stored procedures, BULK INSERT, execution-time logging and TRY/CATCH error handling; the gold layer exposes fact and dimension views with surrogate keys and multi-source joins.</p>
+        <ul class="project-points">
+          <li>Bronze-Silver-Gold layers with automated, logged ingestion</li>
+          <li>Cleaning of duplicate and null records; corrected date, sales and pricing inconsistencies</li>
+          <li>Validation of key uniqueness, referential integrity, dates and sales calculations</li>
+        </ul>
+        <a class="project-link" href="https://github.com/SajanaLal/sql-server-data-warehouse">View repository →</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-body">
+        <h3>Kerala Gyms Data Collection &amp; ETL</h3>
+        <p class="project-tags">Python · Pandas · Matplotlib</p>
+        <p>A paginated API pipeline that collects gym listings across 8 Kerala cities via the Google Maps API (SerpApi), then cleans, deduplicates and profiles the data before analysis. From 1,092 raw records to 891 unique listings, with data-quality profiling (for example, 65% of listings had no website) and city-level analysis of gym supply and engagement.</p>
+        <ul class="project-points">
+          <li>57 paginated API requests across 8 cities, with retry and rate-limit handling</li>
+          <li>Deduplication and data-quality profiling in Pandas</li>
+          <li>City-level supply and engagement analysis in Matplotlib</li>
+        </ul>
+        <a class="project-link" href="https://github.com/SajanaLal/kerala-gyms-etl">View repository →</a>
+      </div>
+      <div class="project-media project-media-stack">
+        <img src="assets/gyms-by-city.png" alt="Unique gym listings by city" loading="lazy">
+        <img src="assets/top-gyms-reviews.png" alt="Top 10 gyms by number of reviews" loading="lazy">
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="experience" class="section section-alt">
+  <div class="container">
+    <h2>Experience</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-when">Jun 2026 — Present</div>
+        <div class="timeline-what">
+          <h3>Data Analytics Trainee</h3>
+          <p class="timeline-org">Rows &amp; Columns, professional training program</p>
+          <ul>
+            <li>Completed SQL and Python projects involving extraction, cleaning and analysis of 5,000+ rows; built dimension tables and SQL views for Power BI reporting</li>
+            <li>Developed multi-page Power BI dashboards using Power Query, data relationships, DAX measures and drill-down filters, with duplicate and accuracy checks</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-when">Dec 2024 — Jun 2026</div>
+        <div class="timeline-what">
+          <h3>Senior Consultant, SAP MM Support</h3>
+          <p class="timeline-org">Wipro Limited</p>
+          <ul>
+            <li>Built and maintained recurring reports on procurement cycle time, vendor performance and inventory turnover, giving planning and procurement teams validated numbers for business decisions</li>
+            <li>Resolved 1,000+ AMS tickets with 98% SLA compliance; executed mass data changes using MASS/LSMW, improving master-data accuracy by 35%</li>
+            <li>Supported IDoc/XML integrations and coordinated data flow between the MM, SD, FI and PP modules, reducing process gaps by 30%</li>
+            <li>Optimized PR/PO, contract, service entry sheet and invoice verification (3-way match) processes, reconciling purchasing, goods-receipt and invoice data and reducing manual errors by 20%</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-when">Sep 2020 — Nov 2024</div>
+        <div class="timeline-what">
+          <h3>Associate Consultant, SAP MM Support</h3>
+          <p class="timeline-org">Wipro Limited</p>
+          <ul>
+            <li>Collaborated with technical teams to improve data retrieval and reporting accuracy by 40%; documented custom logic</li>
+            <li>Resolved ServiceNow incidents within 90% SLA compliance, supporting procurement and inventory processes across business units</li>
+            <li>Configured purchasing documents, info records, service entry sheets, release strategies, account determination and pricing procedures</li>
+            <li>Validated system readiness through functional testing and UAT cycles, supporting 200+ Rev-Trac transports</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="education" class="section">
+  <div class="container">
+    <h2>Education &amp; Certifications</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <h3>M.Tech, Software Systems</h3>
+        <p>Birla Institute of Technology &amp; Science (BITS), Pilani · 2024</p>
+      </div>
+      <div class="edu-card">
+        <h3>BSc Physics</h3>
+        <p>University of Calicut · 2020</p>
+      </div>
+      <div class="edu-card">
+        <h3>Databricks Certified Data Engineer Associate</h3>
+        <p>Databricks · 2025</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section section-contact">
+  <div class="container">
+    <h2>Get in touch</h2>
+    <p class="section-lead">Open to data analyst roles. The fastest way to reach me is email or LinkedIn.</p>
+    <div class="contact-actions">
+      <a class="btn btn-primary" href="mailto:sajanalal99@gmail.com">sajanalal99@gmail.com</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/sajanalal">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://github.com/SajanaLal">GitHub</a>
+      <a class="btn btn-ghost" href="Sajanalal_Data_Analyst.pdf">Download CV</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 Sajanalal H · Kochi, Kerala, India</p>
+  </div>
+</footer>
+
+</body>
+</html>
